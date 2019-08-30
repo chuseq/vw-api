@@ -19,6 +19,12 @@ html(lang="en")
     ul
       each val, index in ['zero', 'one', 'two','three','four','five','six','seve','eight','nine']
         li= index + ': ' + val
+
+    - var n = 0;
+    ul
+      while n < 400
+        li= n++
+
     div.line.bot
 
 
